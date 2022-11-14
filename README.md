@@ -1,2 +1,3 @@
 # EjerciciosHTMLyCSS
-Archivos de Lenguaje de Marcas
+## Repositorio de Alejandro Luis Rey
+Repositorio para los ejercicios de Lenguaje de Marcas
