@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F_1</title>
+    <style type="text/css">
+        body {
+            background-color: bisque;
+        }
+
+        h2{
+            color: brown;
+        }
+
+        form {
+            border: 2px solid brown;
+            width: 60%;
+            padding: 10px;
+        }
+
+        label {
+            display: block;
+        }
+
+        input[type=text] {
+            width: 70%;
+            padding: 12px 20px;
+            margin: 8px;
+            border: 1px solid brown;
+        }
+
+        .etiqueta,
+        label {
+            font-size: 1.3em;
+            color: brown;
+        }
+
+        input[type=submit],
+        input[tyoe=reset] {
+            background-color: brown;
+            color: white;
+            margin: 4px 2px;
+            padding: 8px 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Datos de Cliente</h2>
+
+    <form action="#" method="get">
+        
+        <p>
+            <label for="fname">Nombre:</label>
+            <input type="text" id="fname" name="fname" value="" />
+        </p>
+
+        <p>
+            <label for="lname">NIF:</label>
+            <input type="text" id="lname" name="lname" value="" />
+        </p>
+
+
+        <p>Tipo de Habitación:</p>
+
+        <input type="radio" id="individual" name="fav_language" value="individual">
+        <label for="individual">Individual</label><br>
+
+
+        <input type="radio" id="Doble" name="fav_language" value="Doble">
+        <label for="Doble">Doble</label><br>
+
+
+
+
+        <p>Tipo de Habitación:</p>
+
+        <input type="checkbox" id="desayuno en la habitacion" name="fav_language" value="desayuno en la habitacion">
+        <label for="desayuno en la habitacion">Desayuno en la habitacion</label><br>
+
+
+        <input type="checkbox" id="jacuzzi" name="fav_language" value="jacuzzi">
+        <label for="jacuzzi">Jacuzzi</label><br>
+
+        <input type="checkbox" id="Wi-Fi" name="fav_language" value="Wi-Fi">
+        <label for="Wi-Fi">Wi-Fi</label><br>
+
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+

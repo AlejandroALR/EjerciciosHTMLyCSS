@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F_2</title>
+</head>
+<body>
+    <h1>Cosmetica Profesional</h1>
+    <form action="tratar-datos.html" method="get">
+            <fieldset class="completa">
+                    <legend>Formulario de pedido</legend>
+                    <p><strong>Identificación</strong></p>
+                    <fieldset>
+                        <legend>Datos de Cliente</legend>
+                        <label for="email">Correo electronico</label>
+                        <input type="text" id="email" name="email" size="20" maxlength="40" />
+                        <br />
+                        <label for="pass">Contraseña</label>
+                        <input type="password" id="pass" name="pass" size="10" maxlength="20" />
+                        <br />
+                        <em>Longitud minima 6 caracteres</em>
+                        <label for="direccion">Direccion de envio</label>
+                        <input type="text" id="direccion" name="direccion" size="40" maxlength="60" />
+                    </fieldset>
+                    <fieldset>
+                        <legend>Tipo de Cliente</legend>
+                        <input type="radio" name="tipo" id="particular">
+                        <label for="particular">particular</label>
+                        <br />
+                        <input type="radio" name="tipo" id="empresa">
+                        <label for="empresa">Empresa</label>
+                        <br />
+                    </fieldset>
+                    <p><strong>Datos del Pedido</strong></p>
+                    <fieldset>
+                        <legend>Datos del Producto</legend>
+                        Producto
+                        <br />
+                        <select id="producto" name="producto" multiple="si" size="5">
+                            <optgroup label="Solares">
+                                <option value="Sol-01" selected="selected">Sol-01 Solar Indice 8</option>
+                                <option value="Sol-02">Sol-02 Solar Indice 15</option>
+                                <option value="Sol-03">Sol-03 Solar Indice 50</option>
+                            </optgroup>
+                            <optgroup label="Labiales">
+                                <option value="Lab-01" selected="selected">Lab-01 Gloss Red</option>
+                                <option value="Lab-02">Lab-02 Gloss Brown</option>
+                            </optgroup>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Observaciones</legend>
+                        <textarea rows="5" cols="50" name="observaciones" placeholder="Escriba aqui sus observaciones"></textarea>
+                        <br />
+                        <input type="checkbox" id="publi" value="si" checked="checked">
+                        <label for="publi">Deseo recibir informacion sobre las ofertas y las novedades </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Datos Bancarios</legend>
+                        <label for="tarjeta">Numero de tarjeta</label>
+                        <input type="text" id="tarjeta" name="tarjeta" size="20" checked="20" />
+                        <label for="caducidad">Fecha de caducidad</label>
+                        <input type="text" id="caducidad" name="caducidad" size="5" maxlength="5" />
+                    </fieldset>
+                    <br />
+                    <input type="submit" value="Aceptar" />
+
+                    <input type="reset" value="Borrar" />
+
+            </fieldset>
+        </form>
+
+</body>
+</html>

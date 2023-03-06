@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="Width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercico3TablasyCSS</title>
+
+    <style>
+        table {
+            background-color: beige;
+            border-spacing: 10px;
+            border: 1px solid black;
+            width: 300px;
+        }
+
+        td {
+            border: 1px solid black;
+            background-color: aquamarine;
+        }
+
+        .hide {
+            empty-cells: hide;
+
+        }
+
+        .show {
+            empty-cells: show;
+        }
+
+    </style>
+</head>
+
+<body>
+    <table class="show">
+        <tr>
+            <td></td>
+            <td>Copas</td>
+        </tr>
+        <tr>
+            <td>Bastos</td>
+            <td>Espadas</td>
+        </tr>
+        <tr>
+            <td>Oros</td>
+            <td></td>
+        </tr>
+    </table>
+    <p></p>
+    <table class="hide">
+        <tr>
+            <td></td>
+            <td>Copas</td>
+        </tr>
+        <tr>
+            <td>Bastos</td>
+            <td>Espadas</td>
+        </tr>
+        <tr>
+            <td>Oros</td>
+            <td></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
